@@ -33,6 +33,8 @@ rm -rf ~/.config/opencode/superpowers
 
 Then follow the installation steps above.
 
+On first startup after installation, Superpowers also creates `~/.config/opencode/superpowers.jsonc` if it does not exist. Edit that file to change subagent models without touching `opencode.json`.
+
 ## Usage
 
 ### Finding Skills
