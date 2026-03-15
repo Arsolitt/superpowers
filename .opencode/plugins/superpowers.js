@@ -6,9 +6,9 @@
  * Registers model-aware agents for subagent-driven development.
  */
 
-import path from 'path';
 import fs from 'fs';
 import os from 'os';
+import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -329,7 +329,6 @@ ${toolMapping}
       if (bootstrap) {
         (output.system ||= []).push(bootstrap);
       }
-    }
     }
   };
 };
